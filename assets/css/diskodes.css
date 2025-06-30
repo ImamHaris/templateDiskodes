@@ -1,0 +1,17 @@
+
+.dkd-logo-header {
+    width: 40% !important;
+}
+.dkd-toggler-header {
+    width: 40% !important;
+    margin-left: auto;
+    text-align: right;
+}
+@media (min-width: 992px) {
+    .dkd-logo-header {
+        width: 20% !important;
+    }
+    .dkd-toggler-header {
+        width: 20% !important;
+    }
+}
