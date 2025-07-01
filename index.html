@@ -91,7 +91,7 @@
                         <div class="offcanvas-body pt-0 align-items-center">
 							<ul class="navbar-nav mx-auto align-items-lg-center">
 								<li class="nav-item">
-									<a class="nav-link" href="#home" id="nav-home">Beranda</a>
+									<a class="nav-link active" href="#home" id="nav-home">Beranda</a>
 								</li>
 								<li class="nav-item">
 									<a class="nav-link" href="#artikel" id="nav-career">Artikel</a>
@@ -99,8 +99,8 @@
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Profil</a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="index.html">Desa</a></li>
-                                        <li><a class="dropdown-item" href="index.html">Pemerintahan</a></li>
+                                        <li><a class="dropdown-item" href="#">Desa</a></li>
+                                        <li><a class="dropdown-item" href="#">Pemerintahan</a></li>
                                     </ul>
                                 </li>
 								<li class="nav-item">
@@ -157,8 +157,8 @@
                         <!-- Carousel indicators -->
                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <!-- <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
                         </div>
             
                         <!-- Carousel items -->
@@ -176,62 +176,53 @@
                                                         background-position: center;
                                                         background-repeat: no-repeat;">
 
-                                                    <!-- <div class="flex">
-                                                        <div class="flex flex-col overflow-y-auto fixed left-0 top-16 bottom-12 lg:bottom-0 z-30 transition-all duration-300 bg-base-100 shadow-md p-4 w-full scroll-theme-primary -ml-[100vw] md:w-96 md:-ml-96" :class="{ '-ml-[100vw] md:-ml-96': !sidebar }">
-                                                            <div class="flex items-center w-full gap-3 mb-4">
-                                                                <div class="p-1.5 rounded-lg bg-primary shadow-lg w-32 aspect-[3/4]">
-                                                                    <img id="imgLogoKiri" class="w-full h-full object-contain" alt="logo" src="https://metadesa.id/LAMPUNG/PESAWARAN/PadangCermin/Trimulyo/foto_desa/18_09_05_2026_logo_desa.jpg" />
-                                                                </div>
-                                                                <div class="flex flex-col w-full lg:max-w-lg">
-                                                                    <h3 class="text-2xl font-bold">
-                                                                        Desa Trimulyo Trimulyo
-                                                                    </h3>
-                                                                    <h6 class="text-sm font-normal">
-                                                                        jl. Desa Trimulyo kecamatan Padang Cermin Kabupaten Pesawaran 35451<br/>Telp. 081367839788 Email : <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="116563757462706563787c647d687e51767c70787d3f727e7c">[email&#160;protected]</a>
-                                                                    </h6>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div> -->
-
-                                                    <!-- <section class="container" data-cue="fadeIn">
-                                                        <div class="row justify-content-center">
-                                                            <div data-cues="zoomIn" data-group="page-title" data-delay="700">
-                                                                <div class="text-center d-flex flex-column gap-5">
-                                                                    <div class="d-flex">
-                                                                        <span class="bg-primary bg-opacity-50 text-white border-primary border p-2 fs-5 fs-sm-12 rounded-pill lh-1 d-flex align-items-center h-100">
-                                                                            <span class="badge bg-primary">
-                                                                                <i class="bi bi-house-door-fill"></i>
-                                                                            </span>
-                                                                            <span class="ms-2">FAJAR MATARAM</span>
-                                                                        </span>
+                                                        <div class="row p-3 p-lg-5 h-100">
+                                                            <div class="col-3">
+                                                                <div data-cue="fadeIn">
+                                                                    <div data-cues="zoomIn" data-group="page-title" data-delay="200">
+                                                                        <div class="card p-3">
+                                                                            <img id="imgLogoKiri" class="w-100 dkd-object-contain" alt="logo" src="assets/img/lampung-tengah.png" />
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
+                                                            <div class="col-9">
+                                                                <section class="container" data-cue="fadeIn">
+                                                                    <div data-cues="zoomIn" data-group="page-title" data-delay="200">
+                                                                        <div class="text-center d-flex flex-column gap-5">
+                                                                            <div class="d-flex">
+                                                                                <span class="bg-primary bg-opacity-75 text-white border-primary border p-2 fs-5 fs-sm-12 rounded-pill lh-1 d-flex align-items-center h-100">
+                                                                                    <span class="badge bg-info">
+                                                                                        <i class="bi bi-house-door-fill"></i>
+                                                                                    </span>
+                                                                                    <span class="ms-2">FAJAR MATARAM</span>
+                                                                                </span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </section>
+                                                                
+                                                                <section class="container" data-cue="fadeIn">
+                                                                    <div data-cues="zoomIn" data-group="page-title" data-delay="200">
+                                                                        
+                                                                        <div class="row g-4">
+                                                                            <div class="col-12">
+                                                                                <div class="card p-3 mb-2">
+                                                                                    <span class="text-2">Jalan Raya Merapi, Fajar Mataram, </span>
+                                                                                    <span>
+                                                                                        <span class="fw-bold">Kecamatan</span> Seputih Mataram, 
+                                                                                    </span>
+                                                                                    <span>
+                                                                                        <span class="fw-bold">Kabupaten</span> Lampung Tengah, 
+                                                                                    </span>
+                                                                                    <span>Lampung 34153. </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </section>
+                                                            </div>
                                                         </div>
-                                                    </section> -->
-                                                    
-
-
-                                                <!-- <div class="position-relative w-100 rounded-3 overflow-hidden" style="padding-bottom: 50%;">
-                                                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                                    <div class="village-box">
-                                                        <div class="village-container">
-                                                        <div class="village-logo">
-                                                            <img src="https://metadesa.id/LAMPUNG/PESAWARAN/PadangCermin/Trimulyo/foto_desa/18_09_05_2026_logo_desa.jpg" alt="Logo Desa Trimulyo">
-                                                        </div>
-                                                        <div class="village-text">
-                                                            <h2>Trimulyo</h2>
-                                                            <p>
-                                                            jl. Desa Trimulyo kecamatan Padang Cermin Kabupaten Pesawaran<br>
-                                                            Telp. 081367839788 Email<br>
-                                                            trdesatrimulyo@gmail.com
-                                                            </p>
-                                                        </div>
-                                                        </div>
-                                                    </div>
-                                                    </div>
-                                                </div> -->
                                                 
                                                 
                                                 </div>
@@ -242,7 +233,7 @@
                             </div>
             
                             <!-- Repeat for second image -->
-                            <div class="carousel-item">
+                            <!-- <div class="carousel-item">
                                 <section>
                                     <div class="container">
                                         <a href="#!">
@@ -257,10 +248,10 @@
                                         </a>
                                     </div>
                                 </section>
-                            </div>
+                            </div> -->
             
                             <!-- Third carousel item -->
-                            <div class="carousel-item">
+                            <!-- <div class="carousel-item">
                                 <section>
                                     <div class="container">
                                         <a href="#!">
@@ -275,7 +266,7 @@
                                         </a>
                                     </div>
                                 </section>
-                            </div>
+                            </div> -->
             
                         </div>
             
