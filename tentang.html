@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Template Diskodes Landing Page</title>
+      <link rel="shortcut icon" href="assets/img/icon/icondiskodes.png" />
+
+      <!-- Libs CSS -->
+      <link rel="stylesheet" href="assets/libs/simplebar/dist/simplebar.min.css" />
+      <!-- Icon Bootstraps CSS -->
+      <link rel="stylesheet" href="assets/libs/bootstrap-icons/font/bootstrap-icons.min.css" />
+      <!-- Scroll Cue -->
+      <link rel="stylesheet" href="assets/libs/scrollcue/scrollCue.css" />
+      <!-- Theme CSS -->
+      <link rel="stylesheet" href="assets/css/theme.min.css" >
+      <!-- Diskodes CSS -->
+      <link rel="stylesheet" href="assets/css/diskodes.css" >
+
+      <!-- Icon Fontawesome CSS -->
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+   </head>
+   <body>
+      <header>
+         <!-- first Nav  -->
+         <div class="container-fluid bg-primary-dark py-2">
+               <div class="row align-items-center">
+                  <!-- Left: Email -->
+                  <div class="col-6">
+                     <span class="badge bg-primary">
+                           <i class="bi bi-envelope-fill me-2" style="font-size: 0.9rem;"></i>
+                           info@fajarmataram.go.id
+                     </span>
+                     <span class="badge bg-primary d-none d-md-inline d-lg-inline">
+                           <i class="bi bi-telephone-fill me-2" style="font-size: 0.9rem;"></i>
+                           +62 XX XXXX XXXX
+                     </span>
+                  </div>
+                  <!-- Right: Theme toggle & Sosmed -->
+                  <div class="col-6 d-flex justify-content-end align-items-center">
+                     <!-- Theme Toggle -->
+                     <div class="dropdown me-2">
+                           <button class="btn btn-light btn-sm rounded-circle d-flex align-items-center" type="button" data-bs-toggle="dropdown" aria-label="Toggle theme">
+                              <i class="bi theme-icon bi-sun-fill" style="font-size: 0.85rem;"></i>
+                           </button>
+                           <ul class="dropdown-menu dropdown-menu-end shadow">
+                              <li><button class="dropdown-item d-flex align-items-center" data-bs-theme-value="light"><i class="bi bi-sun-fill me-2"></i>Light</button></li>
+                              <li><button class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark"><i class="bi bi-moon-stars-fill me-2"></i>Dark</button></li>
+                              <li><button class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto"><i class="bi bi-circle-half me-2"></i>Auto</button></li>
+                           </ul>
+                     </div>
+
+                     <!-- Separator line -->
+                     <div class="vr mx-2 align-self-center" style="height: calc(1.5em + 0.5rem + 2px); opacity: 1;"></div>
+
+                     <!-- Social Icons - desktop -->
+                     <div class="d-none d-sm-flex gap-2 align-items-center">
+                           <a href="#!" class="btn btn-light btn-sm btn-icon" title="Instagram">
+                              <i class="bi bi-instagram" style="font-size: 0.85rem;"></i>
+                           </a>
+                           <a href="#!" class="btn btn-light btn-sm btn-icon" title="Facebook">
+                              <i class="bi bi-facebook" style="font-size: 0.85rem;"></i>
+                           </a>
+                           <a href="#!" class="btn btn-light btn-sm btn-icon" title="X">
+                              <i class="fa-brands fa-x-twitter" style="font-size: 0.85rem;"></i>
+                           </a>
+                           <a href="#!" class="btn btn-light btn-sm btn-icon" title="LinkedIn">
+                              <i class="bi bi-linkedin" style="font-size: 0.85rem;"></i>
+                           </a>
+                     </div>
+
+                     <!-- Social Icons - mobile dropdown -->
+                     <div class="dropdown d-sm-none">
+                           <button class="btn btn-light btn-sm btn-icon dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                              <i class="bi bi-share-fill" style="font-size: 0.85rem;"></i>
+                           </button>
+                           <ul class="dropdown-menu dropdown-menu-end shadow">
+                              <li><a class="dropdown-item d-flex align-items-center" href="#!"><i class="bi bi-instagram me-2"></i>Instagram</a></li>
+                              <li><a class="dropdown-item d-flex align-items-center" href="#!"><i class="bi bi-facebook me-2"></i>Facebook</a></li>
+                              <li><a class="dropdown-item d-flex align-items-center" href="#!"><i class="fa-brands fa-x-twitter me-2"></i>X</a></li>
+                              <li><a class="dropdown-item d-flex align-items-center" href="#!"><i class="bi bi-linkedin me-2"></i>LinkedIn</a></li>
+                              <li><a class="dropdown-item d-flex align-items-center" href="#!"><i class="bi bi-telephone-fill me-2"></i>+62 XX XXXX XXXX</a></li>
+                           </ul>
+                     </div>
+                  </div>
+               </div>
+         </div>
+         <!-- Main Nav  -->
+         <nav class="navbar navbar-expand-lg navbar-light w-100">
+               <div class="container px-3">
+                  <div class="dkd-logo-header">
+                     <a class="navbar-brand" href="index.html">
+                           <img src="assets/img/icon/logodiskodes.png" alt style="max-width: 100px;" />
+                     </a>
+                  </div>
+                  <div class="offcanvas offcanvas-start offcanvas-nav" style="width: 20rem">
+                     <div class="offcanvas-header">
+                           <a href="index.html" class="text-inverse"><img src="assets/img/icon/logodiskodes.png" alt style="max-width: 100px;"/></a>
+                           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                     </div>
+                     <div class="offcanvas-body pt-0 align-items-center">
+                  <ul class="navbar-nav mx-auto align-items-lg-center">
+                     <li class="nav-item">
+                        <a class="nav-link" href="index.html" id="nav-home">Beranda</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="artikel_list.html" id="nav-artikel">Artikel</a>
+                     </li>
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Profil</a>
+                        <ul class="dropdown-menu">
+                           <li><a class="dropdown-item" href="tentang.html">Desa</a></li>
+                           <li><a class="dropdown-item" href="pemerintahan.html">Pemerintahan</a></li>
+                        </ul>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#agenda" id="nav-agenda">Agenda</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="index.html#galeri" id="nav-galeri">Galeri</a>
+                     </li>
+                  </ul>
+                     </div>
+                  </div>
+                  <div class="dkd-toggler-header">
+                     <button type="button" class="dkd-navbar-search" data-bs-toggle="modal" data-bs-target="#searchModal">
+                           <i class="bi bi-search"></i>
+                     </button>
+                     <button class="navbar-toggler offcanvas-nav-btn" type="button"><i class="bi bi-list"></i></button>
+                  </div>
+               </div>
+         </nav>
+         <!-- modal search -->
+         <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+               <div class="modal-dialog">
+                  <div class="modal-content">
+                     <div class="bg-white rounded shadow p-3">
+                     <input type="text" class="form-control" placeholder="Search...">
+                     </div>
+                  </div>
+               </div>
+         </div>
+      </header>
+
+      <main class="bg-light">
+         <div class="dkd-pattern-square"></div>
+         <section class="py-5 py-lg-8">
+               <div class="container">
+                  <div class="row">
+                        <div class="col-md-12">
+                           <nav aria-label="breadcrumb">
+                              <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="index.html">Beranda</a></li>
+                                    <li class="breadcrumb-item active title-1-line" aria-current="page">Profil</li>
+                                    <li class="breadcrumb-item active title-1-line" aria-current="page">Desa</li>
+                              </ol>
+                           </nav>
+                        </div>
+                  </div>
+               </div>
+         </section>
+
+         <section class="mb-xl-9">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-12 mb-4">
+                        <div class="card">
+                           <div class="card-body bg-light">
+                              <!--tabs-->
+                              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                 <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
+                                       data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane"
+                                       aria-selected="true">Tentang Fajar Mataram</button>
+                                 </li>
+                                 <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="lambang-tab" data-bs-toggle="tab"
+                                       data-bs-target="#lambang-tab-pane" type="button" role="tab" aria-controls="lambang-tab-pane"
+                                       aria-selected="false">Lambang dan Makna</button>
+                                 </li>
+                                 <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="wilayah-tab" data-bs-toggle="tab"
+                                       data-bs-target="#wilayah-tab-pane" type="button" role="tab" aria-controls="wilayah-tab-pane"
+                                       aria-selected="false">Wilayah Geografis</button>
+                                 </li>
+                                 <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="data-tab" data-bs-toggle="tab"
+                                       data-bs-target="#data-tab-pane" type="button" role="tab" aria-controls="data-tab-pane"
+                                       aria-selected="false">Data Kependudukan</button>
+                                 </li>
+                              </ul>
+
+                              <div class="tab-content bg-white rounded p-4" id="myTabContent">
+                                 <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                                    <h1 class="title-1-line mb-4">Tentang Desa Fajar Mataram</h1>
+                                    <p class="text-muted mb-4">
+                                       Desa Fajar Mataram terletak di Kecamatan Seputih Mataram, Kabupaten Lampung Tengah, Provinsi Lampung. Desa ini dikenal dengan keindahan alamnya dan keragaman budaya yang kaya.
+                                    </p>
+                                    <p class="text-muted mb-4">
+                                       Penduduk desa ini sebagian besar bermata pencaharian sebagai petani dan pekebun. Tradisi gotong royong dan nilai kekeluargaan sangat dijunjung tinggi oleh masyarakat setempat.
+                                    </p>
+                                    <h3 class="fw-bold">Visi</h3>
+                                    <p class="text-muted mb-4">
+                                       Menjadi desa yang mandiri, berdaya saing, dan berkelanjutan dalam pembangunan.
+                                    </p>
+                                    <p class="text-muted mb-4">
+                                       Pemerintah Desa terus mendorong transparansi dan keterlibatan masyarakat melalui teknologi informasi dan partisipasi aktif dalam musyawarah desa.
+                                    </p>
+                                 </div>
+                                 <div class="tab-pane fade" id="lambang-tab-pane" role="tabpanel" aria-labelledby="lambang-tab" tabindex="0">
+                                    <h3 class="fw-bold mb-3">Lambang Desa</h3>
+                                    <p class="text-muted mb-3">
+                                       Lambang Desa Fajar Mataram terdiri dari gambar matahari terbit, padi dan kapas, serta gunung yang melambangkan kesuburan, kemakmuran, dan semangat kebersamaan.
+                                    </p>
+                                    <ul class="text-muted">
+                                       <li><strong>Matahari:</strong> Harapan dan semangat baru</li>
+                                       <li><strong>Padi dan Kapas:</strong> Simbol kesejahteraan dan keadilan sosial</li>
+                                       <li><strong>Gunung dan Sawah:</strong> Melambangkan kekayaan alam dan potensi pertanian</li>
+                                    </ul>
+                                 </div>
+                                 <div class="tab-pane fade" id="wilayah-tab-pane" role="tabpanel" aria-labelledby="wilayah-tab" tabindex="0">
+                                    <h3 class="fw-bold mb-3">Wilayah Geografis</h3>
+                                    <p class="text-muted mb-4">
+                                       Fajar Mataram memiliki luas wilayah sekitar 1.250 hektar dengan batas-batas desa sebagai berikut:
+                                    </p>
+                                    <ul class="text-muted">
+                                       <li><strong>Utara:</strong> Desa Rama Indra</li>
+                                       <li><strong>Timur:</strong> Desa Seputih</li>
+                                       <li><strong>Selatan:</strong> Desa Mataram Udik</li>
+                                       <li><strong>Barat:</strong> Desa Bumi Jawa</li>
+                                    </ul>
+                                    <p class="text-muted">
+                                       Wilayahnya didominasi oleh lahan pertanian dan perkebunan, dengan iklim tropis dan curah hujan sedang sepanjang tahun.
+                                    </p>
+                                 </div>
+                                 <div class="tab-pane fade" id="data-tab-pane" role="tabpanel" aria-labelledby="data-tab" tabindex="0">
+                                    <h3 class="fw-bold mb-3">Data Kependudukan</h3>
+                                    <p class="text-muted mb-3">
+                                       Berdasarkan data tahun 2025, jumlah penduduk Desa Fajar Mataram mencapai sekitar 4.500 jiwa yang terdiri dari:
+                                    </p>
+                                    <ul class="text-muted">
+                                       <li><strong>Laki-laki:</strong> 2.300 jiwa</li>
+                                       <li><strong>Perempuan:</strong> 2.200 jiwa</li>
+                                       <li><strong>Kepala Keluarga:</strong> 1.200 KK</li>
+                                    </ul>
+                                    <p class="text-muted">
+                                       Mayoritas penduduk berusia produktif, dan tingkat partisipasi pendidikan dasar cukup tinggi.
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     
+                     <div class="col-12 mb-4">
+                        <div class="card">
+                           <div class="card-body bg-light">
+                              <!-- Tabs -->
+                              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                 <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="mars-tab" data-bs-toggle="tab"
+                                       data-bs-target="#mars-tab-pane" type="button" role="tab" aria-controls="mars-tab-pane"
+                                       aria-selected="true">Mars Desa</button>
+                                 </li>
+                                 <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="hymne-tab" data-bs-toggle="tab"
+                                       data-bs-target="#hymne-tab-pane" type="button" role="tab" aria-controls="hymne-tab-pane"
+                                       aria-selected="false">Hymne Desa</button>
+                                 </li>
+                              </ul>
+
+                              <div class="tab-content bg-white rounded p-4" id="myTabContent">
+                                 <!-- Mars Desa -->
+                                 <div class="tab-pane fade show active" id="mars-tab-pane" role="tabpanel" aria-labelledby="mars-tab" tabindex="0">
+                                    <div class="row">
+                                       <div class="col-md-4 mb-4">
+                                          <div class="container">
+                                             <div class="position-relative btn-arrow w-100 rounded-3 overflow-hidden dkd-border-4" style="padding-bottom: 50%;">
+                                                <a href="#" class="gallery-item-inner" data-type="video">
+                                                   <div class="position-absolute top-0 start-0 w-100 h-100">
+                                                      <iframe class="rounded" src="assets/video/videoTest.mp4" allowfullscreen=""></iframe>
+                                                   </div>
+                                                </a>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="col-md-8">
+                                          <div class="card shadow-sm">
+                                             <div class="card-header">
+                                                <h5 class="card-title fw-bold">Lirik Mars Desa Fajar Mataram</h5>
+                                             </div>
+                                             <div class="card-body">
+                                                <p class="text-muted small" style="white-space: pre-line;">
+                                                   Fajar bersinar di pagi hari  
+                                                   Membangkitkan semangat mengabdi  
+                                                   Bersatu padu, membangun desa  
+                                                   Fajar Mataram tercinta
+
+                                                   Kita maju bersama  
+                                                   Dengan tekad dan cita  
+                                                   Menuju desa sejahtera  
+                                                   Dalam damai dan bahagia
+                                                </p>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+
+                                 <!-- Hymne Desa -->
+                                 <div class="tab-pane fade" id="hymne-tab-pane" role="tabpanel" aria-labelledby="hymne-tab" tabindex="0">
+                                    <div class="row">
+                                       <div class="col-md-4 mb-4">
+                                          <div class="container">
+                                             <div class="position-relative btn-arrow w-100 rounded-3 overflow-hidden dkd-border-4" style="padding-bottom: 50%;">
+                                                <a href="#" class="gallery-item-inner" data-type="video">
+                                                   <div class="position-absolute top-0 start-0 w-100 h-100">
+                                                      <iframe class="rounded" src="assets/video/videoTest.mp4" allowfullscreen=""></iframe>
+                                                   </div>
+                                                </a>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="col-md-8">
+                                          <div class="card shadow-sm">
+                                             <div class="card-header">
+                                                <h5 class="card-title fw-bold">Lirik Hymne Desa Fajar Mataram</h5>
+                                             </div>
+                                             <div class="card-body">
+                                                <p class="text-muted small" style="white-space: pre-line;">
+                                                   Fajar Mataram nan permai  
+                                                   Tanah air tempat kami tinggal  
+                                                   Dengan cinta dan damai  
+                                                   Kami jaga sepenuh hati
+
+                                                   Oh desa kami tercinta  
+                                                   Kau cahaya dalam hidup kami  
+                                                   Bersama kami setia  
+                                                   Menjaga dan membangun negeri
+                                                </p>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+         </section>
+         <br>
+   </main>
+
+   <footer class="pt-5">
+      <div class="container">
+            <div class="row">
+               <div class="col-12 text-center">
+                  <h4>
+                        Portal Sistem Informasi Pemerintahan Desa Kelurahan Terpadu <br>
+                        Desa Fajar Mataram, Kec. Seputih Mataram, Kab. Lampung Tengah, Prov. Lampung
+                  </h4>
+                  <br>
+                  <h5>Info Diskodes</h5>
+                  <h6>
+                        <a href="#">Ketentuan Layanan</a>&nbsp;|&nbsp;
+                        <a href="#">Pedoman Siber</a>&nbsp;|&nbsp;
+                        <a href="#">Privasi</a>
+                  </h6>
+               </div>
+            </div>
+      </div>
+      <div class="container mt-7 pt-lg-7 pb-4">
+            <div class="row align-items-center">
+               <div class="col-md-3">
+                  <a class="mb-4 mb-lg-0 d-block text-inverse" href="index.html">
+                        <img src="assets/img/icon/logodiskodes.png" alt style="max-width: 130px;" />
+                  </a>
+               </div>
+               <div class="col-md-9 col-lg-6">
+                  <div class="small mb-3 mb-lg-0 text-lg-center">
+                        <span>
+                           Copyright &copy; <span class="text-primary"><a href="#">Diskodes</a></span>
+                           <span id="currentYear"></span> (ver. 1.1)
+                        </span>
+                        <script>
+                           document.getElementById("currentYear").textContent = new Date().getFullYear();
+                        </script>
+                  </div>
+               </div>
+               <div class="col-lg-3"></div>
+            </div>
+      </div>
+   </footer>
+
+   <section class="dkd-fab-container">
+      <button class="dkd-fab" id="fabWhatsApp" data-bs-toggle="tooltip" data-bs-placement="left" title="WhatsApp Message">
+            <img src="https://edunitas.com/assets/image/WhatsApp.svg" alt="WhatsApp" width="24" height="24">
+      </button>
+   </section>
+   
+   <div class="btn-scroll-top">
+      <svg class="progress-square svg-content" width="100%" height="100%" viewBox="0 0 40 40">
+            <path d="M8 1H32C35.866 1 39 4.13401 39 8V32C39 35.866 35.866 39 32 39H8C4.13401 39 1 35.866 1 32V8C1 4.13401 4.13401 1 8 1Z" />
+      </svg>
+   </div>
+
+   <!-- Libs JS -->
+   <script src="assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+   <script src="assets/libs/simplebar/dist/simplebar.min.js"></script>
+   <script src="assets/libs/headhesive/dist/headhesive.min.js"></script>
+   <!-- Color modes -->
+   <script src="assets/libs/colormodes/js/color-modes.js"></script>
+   <!-- Theme JS -->
+   <script src="assets/js/theme.min.js"></script>
+   <script src="assets/libs/scrollcue/scrollCue.min.js"></script>
+   <script src="assets/libs/scrollcue/scrollcue.js"></script>
+   <script src="assets/libs/filtergallery/filter-gallery.js"></script>
+
+   <script>
+      document.addEventListener("DOMContentLoaded", function() {
+            document.getElementById("fabWhatsApp").addEventListener("click", function() {
+               var phoneNumber = "628XXXXXXXXX";
+               var message = "Halo, saya ingin bertanya mengenai desa ini.";
+               var url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+               window.open(url, '_blank');
+            });
+      });
+   </script>
+
+   <script>
+      document.addEventListener("DOMContentLoaded", function() {
+         const searchBox = document.querySelector(".search-box");
+         searchBox.addEventListener("keyup", function(event) {
+               const value = event.target.value.toLowerCase();
+               const customCols = document.querySelectorAll(".custom-row .custom-col");
+               customCols.forEach(function(col) {
+                  const cardText = col.querySelector('.title-2-line').textContent.toLowerCase();
+                  if (cardText.indexOf(value) > -1) {
+                     col.style.display = ""; // Show if matches search
+                  } else {
+                     col.style.display = "none"; // Hide if it doesn't match search
+                  }
+               });
+         });
+      });
+   </script>
+   </body>
+</html>

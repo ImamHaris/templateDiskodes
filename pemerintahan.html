@@ -106,13 +106,13 @@
                      <li class="nav-item">
                         <a class="nav-link" href="artikel_list.html" id="nav-artikel">Artikel</a>
                      </li>
-                              <li class="nav-item dropdown">
-                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Profil</a>
-                                 <ul class="dropdown-menu">
-                                       <li><a class="dropdown-item" href="tentang.html">Desa</a></li>
-                                       <li><a class="dropdown-item" href="pemerintahan.html">Pemerintahan</a></li>
-                                 </ul>
-                              </li>
+                        <li class="nav-item dropdown">
+                           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Profil</a>
+                           <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="tentang.html">Desa</a></li>
+                              <li><a class="dropdown-item" href="pemerintahan.html">Pemerintahan</a></li>
+                           </ul>
+                        </li>
                      <li class="nav-item">
                         <a class="nav-link" href="#agenda" id="nav-agenda">Agenda</a>
                      </li>
@@ -151,7 +151,8 @@
                            <nav aria-label="breadcrumb">
                               <ol class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="index.html">Beranda</a></li>
-                                    <li class="breadcrumb-item active title-1-line" aria-current="page">Daftar Artikel</li>
+                                    <li class="breadcrumb-item active title-1-line" aria-current="page">Profil</li>
+                                    <li class="breadcrumb-item active title-1-line" aria-current="page">Pemerintahan</li>
                               </ol>
                            </nav>
                         </div>
@@ -160,90 +161,80 @@
          </section>
 
          <section class="mb-xl-9">
-               <div class="container">
-                  <div class="card">
+            <div class="container">
+               <div class="card">
                      <div class="card-header">
                         <div class="row">
                            <div class="col-lg-9">
-                              <div class="input-group">
-                                 <input type="text" class="form-control search-box" placeholder="Cari Berita / Artikel...">
-                                 <div class="input-group-text">
-                                    <button class="btn btn-sm btn-primary" type="button"><i class="bi bi-search align-middle"></i></button>
-                                 </div>
-                              </div>
+                              <h3>Perangkat Desa</h3>
                            </div>
                            <div class="col-lg-3">
                               <div class="d-flex justify-content-end">
                                  <select class="form-select w-100" aria-label="Sort by">
-                                    <option selected>Urutkan Berdasarkan</option>
-                                    <option value="1">Terbaru</option>
-                                    <option value="2">Terlama</option>
-                                    <option value="3">Populer</option>
+                                    <option selected>Periode 2024-2029</option>
+                                    <option value="1">Periode 2019-2024</option>
+                                    <option value="2">Periode 2014-2019</option>
+                                    <option value="3">Periode 2009-2014</option>
+                                    <option value="4">Periode 2004-2009</option>
                                  </select>
                               </div>
                            </div>
                         </div>
                      </div>
                      <div class="card-body">
-                        <div class="row g-3 align-items-stretch custom-row">
-                           <div class="col-12 col-md-4 custom-col">
-                                 <div class="card card-equal shadow-sm">
-                                    <a href="artikel_detail.html" class="dkd-image-hover-wrapper position-relative overflow-hidden">
-                                       <img src="assets/img/article/berita2.jpg" class="news-thumbnail rounded w-100" alt="Main News">
-                                       <div class="dkd-image-hover-overlay d-flex justify-content-center align-items-center">
-                                             <span class="dkd-hover-text dkd-text-white">Lihat Selengkapnya..</span>
-                                       </div>
-                                    </a>
-                                    <div class="card-body d-flex flex-column">
-                                       <a href="artikel_detail.html" class="mb-2 fw-bold title-2-line">
-                                          Gua Maria Fajar Mataram Jadi Destinasi Wisata Rohani Favorit
-                                       </a>
-                                       <p class="text-muted small mt-auto">Diposting oleh Yuni Pratiwi - 28 Juni 2025</p>
-                                    </div>
-                                 </div>
-                           </div>
-                           <div class="col-12 col-md-4 custom-col">
-                                 <div class="card card-equal shadow-sm">
-                                    <a href="artikel_detail.html" class="dkd-image-hover-wrapper position-relative overflow-hidden">
-                                       <img src="assets/img/article/berita3.jpeg" class="news-thumbnail rounded w-100" alt="Main News">
-                                       <div class="dkd-image-hover-overlay d-flex justify-content-center align-items-center">
-                                             <span class="dkd-hover-text dkd-text-white">Lihat Selengkapnya..</span>
-                                       </div>
-                                    </a>
-                                    <div class="card-body d-flex flex-column">
-                                       <a href="artikel_detail.html" class="mb-2 fw-bold title-2-line">
-                                          Petani Fajar Mataram Dapat Bantuan Pupuk Subsidi dari Pemerintah
-                                       </a>
-                                       <p class="text-muted small mt-auto">Diposting oleh Yuni Pratiwi - 25 Juni 2025</p>
-                                    </div>
-                                 </div>
-                           </div>
-                           <div class="col-12 col-md-4 custom-col">
-                                 <div class="card card-equal shadow-sm">
-                                    <a href="artikel_detail.html" class="dkd-image-hover-wrapper position-relative overflow-hidden">
-                                       <img src="assets/img/article/berita4.jpg" class="news-thumbnail rounded w-100" alt="Main News">
-                                       <div class="dkd-image-hover-overlay d-flex justify-content-center align-items-center">
-                                             <span class="dkd-hover-text dkd-text-white">Lihat Selengkapnya..</span>
-                                       </div>
-                                    </a>
-                                    <div class="card-body d-flex flex-column">
-                                       <a href="artikel_detail.html" class="mb-2 fw-bold title-2-line">
-                                          Festival Panen Raya Warnai Kehidupan Sosial Warga Desa Fajar Mataram
-                                       </a>
-                                       <p class="text-muted small mt-auto">Diposting oleh Yuni Pratiwi - 20 Juni 2025</p>
-                                    </div>
-                                 </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="card-footer text-center">
-                        <a href="#" class="btn btn-outline-primary">
-                           <i class="bi bi-arrow-down"></i>
-                           Lihat Lebih Banyak
-                        </a>
+                        <table class="table table-bordered w-100 align-middle">
+                           <thead class="table-light text-center">
+                              <tr>
+                                 <th style="width: 100px;">Foto</th>
+                                 <th>Data Profil</th>
+                                 <th style="width: 200px;">Jabatan</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td class="text-center">
+                                    <img src="assets/img/figure/men.png" alt="Ahmad Fauzi"
+                                       class="rounded-3 shadow-sm border" style="width: 80px; height: 100px; object-fit: cover;">
+                                 </td>
+                                 <td>
+                                    <strong>Ahmad Fauzi</strong><br>
+                                    <small class="text-muted">Lahir: 12 Jan 1975</small><br>
+                                    <small class="text-muted">HP: 0812-3456-7890</small><br>
+                                    <small class="text-muted">Email: fauzi.desa@email.com</small>
+                                 </td>
+                                 <td class="text-center">Kepala Desa</td>
+                              </tr>
+                              <tr>
+                                 <td class="text-center">
+                                    <img src="assets/img/figure/women.jpeg" alt="Siti Aminah"
+                                       class="rounded-3 shadow-sm border" style="width: 80px; height: 100px; object-fit: cover;">
+                                 </td>
+                                 <td>
+                                    <strong>Siti Aminah</strong><br>
+                                    <small class="text-muted">Lahir: 05 Mei 1980</small><br>
+                                    <small class="text-muted">HP: 0821-2345-6789</small><br>
+                                    <small class="text-muted">Email: siti.aminah@email.com</small>
+                                 </td>
+                                 <td class="text-center">Sekretaris Desa</td>
+                              </tr>
+                              <tr>
+                                 <td class="text-center">
+                                    <img src="assets/img/figure/men.png" alt="Budi Santoso"
+                                       class="rounded-3 shadow-sm border" style="width: 80px; height: 100px; object-fit: cover;">
+                                 </td>
+                                 <td>
+                                    <strong>Budi Santoso</strong><br>
+                                    <small class="text-muted">Lahir: 22 Okt 1983</small><br>
+                                    <small class="text-muted">HP: 0831-9876-5432</small><br>
+                                    <small class="text-muted">Email: budi.santoso@email.com</small>
+                                 </td>
+                                 <td class="text-center">Kepala Urusan Keuangan</td>
+                              </tr>
+                           </tbody>
+                        </table>
                      </div>
                   </div>
-               </div>
+            </div>
          </section>
          <br>
    </main>

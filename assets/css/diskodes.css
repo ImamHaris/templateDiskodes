@@ -313,131 +313,46 @@ a:hover .dkd-image-hover-overlay {
     top: 0;
     z-index: 0;
     pointer-events: none;
-    /* look blue */
     filter: brightness(0) saturate(100%) invert(22%) sepia(99%) saturate(3317%) hue-rotate(210deg) brightness(100%) contrast(95%);
 }
 
-
-
-.comment-box {
-      background-color: white;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      max-width: 600px;
-      margin: 0 auto;
-    }
-
-    .comment-box h2 {
-      margin-bottom: 20px;
-    }
-
-    .input-group {
-      margin-bottom: 15px;
-    }
-
-    .input-group input, .input-group textarea {
-      width: 100%;
-      padding: 10px;
-      border-radius: 8px;
-      border: 1px solid #ccc;
-      font-size: 14px;
-    }
-
-    .input-group textarea {
-      resize: vertical;
-      min-height: 100px;
-    }
-
-    .char-count {
-      text-align: right;
-      font-size: 12px;
-      color: #666;
-    }
-
-    .btn-send {
-      background-color: #1d4ed8;
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-      font-size: 14px;
-      float: right;
-    }
-
-    .tabs {
-      display: flex;
-      gap: 10px;
-      margin: 20px auto;
-      max-width: 600px;
-    }
-
-    .tab {
-      padding: 8px 14px;
-      border-radius: 20px;
-      background-color: #eee;
-      cursor: pointer;
-      font-size: 14px;
-    }
-
-    .tab.active {
-      background-color: #1d4ed8;
-      color: white;
-    }
-
-    .comment-list {
-      max-width: 600px;
-      margin: 0 auto;
-    }
-
-    .comment {
-      display: flex;
-      align-items: flex-start;
-      gap: 12px;
-      background-color: white;
-      padding: 15px;
-      border-radius: 10px;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-      margin-bottom: 10px;
-    }
-
-    .avatar {
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: bold;
-      font-size: 18px;
-      color: white;
-      flex-shrink: 0;
-    }
-
-    .comment-content {
-      flex: 1;
-    }
-
-    .comment .name {
-      font-weight: bold;
-    }
-
-    .comment .time {
-      font-size: 12px;
-      color: #999;
-    }
-
-    .comment .text {
-      margin-top: 5px;
-    }
-
-    .interaction {
-      font-size: 12px;
-      margin-top: 8px;
-      color: #555;
-    }
-
+/* Comment Section */
+.dkd-comment-list {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.dkd-comment {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+}
+.dkd-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    flex-shrink: 0;
+}
+.dkd-comment-content {
+    flex: 1;
+}
+.dkd-comment .name {
+    font-weight: bold;
+}
+.dkd-comment .time {
+    font-size: 12px;
+    color: #999;
+}
 
 
 
@@ -456,85 +371,85 @@ a:hover .dkd-image-hover-overlay {
     }
 
     .share-container {
-  position: relative;
-  display: inline-block;
-  width: 100%;
+position: relative;
+display: inline-block;
+width: 100%;
 }
 
 .share-button {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  background-color: #ffffffcc;
-  border: none;
-  border-radius: 50%;
-  width: 42px;
-  height: 42px;
-  cursor: pointer;
-  z-index: 2;
-  box-shadow: 0 0 8px rgba(0,0,0,0.2);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
+position: absolute;
+bottom: 10px;
+right: 10px;
+background-color: #ffffffcc;
+border: none;
+border-radius: 50%;
+width: 42px;
+height: 42px;
+cursor: pointer;
+z-index: 2;
+box-shadow: 0 0 8px rgba(0,0,0,0.2);
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 0;
 }
 
 
 .share-icons {
-  position: absolute;
-  bottom: 60px;
-  right: 10px;
-  display: none;
-  z-index: 2;
+position: absolute;
+bottom: 60px;
+right: 10px;
+display: none;
+z-index: 2;
 }
 
 .share-icons-card {
-  background-color: #ffffffdd;
-  border-radius: 16px;
-  padding: 12px;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  backdrop-filter: blur(5px);
+background-color: #ffffffdd;
+border-radius: 16px;
+padding: 12px;
+box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+display: flex;
+flex-direction: column;
+gap: 10px;
+backdrop-filter: blur(5px);
 }
 
 .share-icons a {
-  background-color: #fff;
-  border-radius: 50%;
-  padding: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 42px;
-  height: 42px;
-  text-decoration: none;
-  color: #333;
-  transition: transform 0.2s ease;
-  position: relative;
+background-color: #fff;
+border-radius: 50%;
+padding: 8px;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 42px;
+height: 42px;
+text-decoration: none;
+color: #333;
+transition: transform 0.2s ease;
+position: relative;
 }
 
 .share-icons a:hover {
-  transform: scale(1.1);
+transform: scale(1.1);
 }
 .tooltip-text {
-  display: none;
-  position: absolute;
-  top: -28px;
-  right: 50%;
-  transform: translateX(50%);
-  background-color: #333;
-  color: #fff;
-  font-size: 12px;
-  padding: 4px 8px;
-  border-radius: 4px;
-  white-space: nowrap;
-  z-index: 3;
-  opacity: 0;
-  transition: opacity 0.3s ease;
+display: none;
+position: absolute;
+top: -28px;
+right: 50%;
+transform: translateX(50%);
+background-color: #333;
+color: #fff;
+font-size: 12px;
+padding: 4px 8px;
+border-radius: 4px;
+white-space: nowrap;
+z-index: 3;
+opacity: 0;
+transition: opacity 0.3s ease;
 }
 
 .share-icons a.show-tooltip .tooltip-text {
-  display: block;
-  opacity: 1;
+display: block;
+opacity: 1;
 }

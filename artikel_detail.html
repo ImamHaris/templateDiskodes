@@ -101,7 +101,7 @@
                      <div class="offcanvas-body pt-0 align-items-center">
                   <ul class="navbar-nav mx-auto align-items-lg-center">
                      <li class="nav-item">
-                        <a class="nav-link active" href="index.html" id="nav-home">Beranda</a>
+                        <a class="nav-link" href="index.html" id="nav-home">Beranda</a>
                      </li>
                      <li class="nav-item">
                         <a class="nav-link" href="artikel_list.html" id="nav-artikel">Artikel</a>
@@ -109,15 +109,15 @@
                               <li class="nav-item dropdown">
                                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Profil</a>
                                  <ul class="dropdown-menu">
-                                       <li><a class="dropdown-item" href="#">Desa</a></li>
-                                       <li><a class="dropdown-item" href="#">Pemerintahan</a></li>
+                                       <li><a class="dropdown-item" href="tentang.html">Desa</a></li>
+                                       <li><a class="dropdown-item" href="pemerintahan.html">Pemerintahan</a></li>
                                  </ul>
                               </li>
                      <li class="nav-item">
                         <a class="nav-link" href="#agenda" id="nav-agenda">Agenda</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="#galeri" id="nav-galeri">Galeri</a>
+                        <a class="nav-link" href="index.html#galeri" id="nav-galeri">Galeri</a>
                      </li>
                   </ul>
                      </div>
@@ -276,47 +276,56 @@
                            </div>
                         </div>
                      </div>
-                     <div class="card shadow">
-                        <div class="card-header fw-bold">
-                           Berikan Komentar
+                     <div class="card">
+                        <div class="card-header">
+                           <h5 class="fw-bold">Komentar (2)</h5>
                         </div>
-                        <form>
-                           <div class="card-body p-3">
-                              <div class="mb-1">
-                                 <input type="text" class="form-control" id="nama" name="nama" placeholder="Masukkan nama Anda">
+                        <div class="card-body p-2">
+                           <div class="card shadow">
+                              <div class="card-header fw-bold">
+                                 Berikan Komentar
                               </div>
-                              <div class="mb-1">
-                                 <textarea class="form-control" id="komentar" name="komentar" rows="3" placeholder="Tulis komentar Anda"></textarea>
+                              <form>
+                                 <div class="card-body p-3">
+                                    <div class="mb-1">
+                                       <input type="text" class="form-control" id="nama" name="nama" placeholder="Masukkan nama Anda">
+                                    </div>
+                                    <div class="mb-1">
+                                       <textarea class="form-control" id="komentar" name="komentar" rows="3" placeholder="Tulis komentar Anda"></textarea>
+                                    </div>
+                                 </div>
+                                 <div class="card-footer text-end">
+                                    <button class="btn btn-primary btn-sm">
+                                       <i class="fas fa-paper-plane me-1"></i> Kirim
+                                    </button>
+                                 </div>
+                              </form>
+                           </div>
+                           <hr>
+                           <div class="dkd-comment-list mt-4">
+                              <div class="dkd-comment shadow">
+                                 <div class="dkd-avatar" style="background-color: #27ae60;">A</div>
+                                 <div class="dkd-comment-content">
+                                    <div class="name">Andi Saputra</div>
+                                    <div class="time">30 menit yang lalu</div>
+                                    <p>Sangat bangga dengan kemajuan pertanian desa kita! Semoga terus meningkat ke depannya.</p>
+                                 </div>
+                              </div>
+                              <div class="dkd-comment shadow">
+                                 <div class="dkd-avatar" style="background-color: #8e44ad;">S</div>
+                                 <div class="dkd-comment-content">
+                                    <div class="name">Siti Nurhaliza</div>
+                                    <div class="time">2 jam yang lalu</div>
+                                    <p>Salut buat para petani Fajar Mataram. Kerja keras kalian luar biasa!</p>
+                                 </div>
+                              </div>
+                              <div class="text-center mt-3">
+                                 <a href="">Lihat lebih banyak</a>
                               </div>
                            </div>
-                           <div class="card-footer text-end">
-                              <button class="btn btn-primary btn-sm">
-                                 <i class="fas fa-paper-plane me-1"></i> Kirim
-                              </button>
-                           </div>
-                        </form>
-                     </div>
-
-                     <div class="comment-list mt-4">
-                        <!-- Existing example comments -->
-                        <div class="comment">
-                           <div class="avatar" style="background-color: #27ae60;">A</div>
-                           <div class="comment-content">
-                              <div class="name">Andi Saputra</div>
-                              <div class="time">30 menit yang lalu</div>
-                              <p>Sangat bangga dengan kemajuan pertanian desa kita! Semoga terus meningkat ke depannya.</p>
-                           </div>
                         </div>
-                        <div class="comment">
-                           <div class="avatar" style="background-color: #8e44ad;">S</div>
-                           <div class="comment-content">
-                              <div class="name">Siti Nurhaliza</div>
-                              <div class="time">2 jam yang lalu</div>
-                              <p>Salut buat para petani Fajar Mataram. Kerja keras kalian luar biasa!</p>
-                           </div>
-                        </div>
-
                      </div>
+                     
                   </div>
                </div>
             </div>
